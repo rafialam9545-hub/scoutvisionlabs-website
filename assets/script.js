@@ -1,0 +1,1 @@
+const toggle=document.querySelector('.menu');const links=document.querySelector('.links');if(toggle){toggle.addEventListener('click',()=>{const open=links.classList.toggle('open');toggle.setAttribute('aria-expanded',String(open));});}document.querySelectorAll('.year').forEach(e=>e.textContent=new Date().getFullYear());
